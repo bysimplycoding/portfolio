@@ -1,4 +1,4 @@
-import { QRCodeSVG } from "qrcode.react"
+import { QRCodeCanvas } from "qrcode.react"
 import { useState } from "react"
 import styles from '../styles/qrcode.module.css'
 
@@ -21,7 +21,7 @@ const Qrcomponent = () => {
         className={styles.input}
         />
         <div className={styles.qr}>
-          <QRCodeSVG
+          <QRCodeCanvas
           value={ text }
           />
         </div>
