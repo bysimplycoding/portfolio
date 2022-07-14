@@ -1,9 +1,8 @@
 import Link from "next/link";
-import styles from './Projects.module.css'
 
-const Projects = () => {
+export default function Projects() {
   return ( 
-    <div className={styles.center}>
+    <div>
       <Link href='/qrcode'>
         <a>QR Code Generator</a>
         {/* more projects*/}
@@ -11,5 +10,3 @@ const Projects = () => {
     </div>
    );
 }
- 
-export default Projects;

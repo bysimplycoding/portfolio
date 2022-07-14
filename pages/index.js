@@ -1,11 +1,12 @@
-import Homepage from "../components/Homepage";
-import Projects from "../components/Projects";
+import Homepage from "../components/homepage";
+import Layout from "../components/layout";
+import Projects from "../components/projects";
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       <Homepage />
       <Projects />
-    </div>
+    </Layout>
   );
 }

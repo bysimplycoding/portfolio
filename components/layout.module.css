@@ -1,0 +1,15 @@
+.container, .qr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.qr {
+  margin: 13rem 0;
+}
+
+.input {
+  padding: 3px;
+}
